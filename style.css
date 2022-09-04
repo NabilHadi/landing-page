@@ -146,3 +146,37 @@ ul.cards-list {
   font-weight: 700;
   text-align: right;
 }
+
+.call-to-action-section {
+  padding: 80px 10px;
+}
+
+.wide-card {
+  background-color: #2e72e0;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 50px 10px;
+  border-radius: 10px;
+}
+
+.wide-card .main-text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.wide-card .sub-text {
+  opacity: 0.8;
+}
+
+.wide-card button {
+  border: 3px solid #e5e7eb;
+  background-color: transparent;
+  color: #e5e7eb;
+  padding: 6px 32px;
+  border-radius: 8px;
+  height: fit-content;
+  font-weight: 500;
+  font-size: 16px;
+}
