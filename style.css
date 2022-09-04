@@ -92,7 +92,7 @@ main {
 }
 
 main h2 {
-  font-size: 32px;
+  font-size: 36px;
   margin: 40px 0;
   color: #1f2937;
 }
@@ -100,6 +100,7 @@ main h2 {
 ul.cards-list {
   justify-content: center;
   gap: 50px;
+  margin-bottom: 70px;
 }
 
 .card {
@@ -120,4 +121,28 @@ ul.cards-list {
 
 .card-desc {
   opacity: 0.8;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  padding: 80px 10px;
+  color: #1f2937;
+}
+
+.quote-section figure {
+  width: 80%;
+  margin: auto;
+}
+
+.quote-section blockquote {
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+
+.quote-section figcaption {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
 }
