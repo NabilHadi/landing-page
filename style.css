@@ -121,3 +121,61 @@ img {
   font-size: 14px;
   color: #1f2937f5;
 }
+
+.section-3 {
+  background-color: #e5e7ed;
+  padding: 50px 0;
+}
+
+.section-3 p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #35373dcc;
+  margin-bottom: 8px;
+}
+
+.section-3 figcaption {
+  text-align: right;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.section-4 {
+  padding: 50px 8px;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0;
+  color: #f9faf8;
+  align-items: center;
+}
+
+.call-to-action p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.call-to-action button {
+  padding: 8px 32px;
+  height: max-content;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  background-color: transparent;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 40px 0;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: lighter;
+}
