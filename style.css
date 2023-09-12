@@ -27,6 +27,8 @@ a {
   margin: 0 auto;
 }
 
+/* Hero section */
+
 .hero {
   background-color: #1f2937;
   color: #f9faf8;
@@ -80,6 +82,8 @@ a {
   border: none;
 }
 
+/* Information section */
+
 .info {
   text-align: center;
   margin-bottom: 80px;
@@ -117,4 +121,30 @@ a {
   margin-top: 8px;
   color: #1f2937;
   opacity: 0.8;
+}
+
+/* Quote section */
+
+.quote {
+  padding: 100px 0;
+  background-color: #e5e7eb;
+}
+
+.quote blockquote {
+  width: 73%;
+  margin: 0 auto;
+  color: #1f2937;
+}
+
+.quote blockquote p {
+  font-size: 36px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.quote blockquote footer {
+  text-align: end;
+  font-weight: 900;
+  font-size: 36px;
+  margin-right: 20px;
 }
