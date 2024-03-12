@@ -87,3 +87,38 @@ img {
   border: none;
   border-radius: 8px;
 }
+
+.information {
+  padding-bottom: 100px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight:800;
+  color: #1F2937;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.card .card-img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
